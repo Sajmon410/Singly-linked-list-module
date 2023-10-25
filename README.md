@@ -11,8 +11,7 @@ The insertInFront function adds a new element to the beginning while insertAtEnd
 element at the end of the list. reverseList reverses the order of elements while printList<br>
 prints all list elements.<br>
 The assumption is that int_least32_t, double, uint_least8_t are most often used, so I<br>
-therefore implemented just those three types. Therefore, the program is limited to those 3 types<br>
-data.<br>
+therefore implemented just those three types. Therefore, the program is limited to those 3 types data.<br>
 Files main.c and linked_list.c use printf or <stdio.h> library which breaks<br>
 MISRA-C:2004 20.9/R standard.<br>
 The program uses dynamic memory allocation due to the lifetime of the data it violates<br>
