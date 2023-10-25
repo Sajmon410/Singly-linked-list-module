@@ -1,0 +1,9 @@
+build:
+gcc linked_list.c -c
+ar -rs liblinked_list.a linked_list.o
+gcc linked_list.c -c -l ../linked_list.h
+ar -rs liblinked_list.a linked_list.o
+
+run:
+gcc main.c linked_list.c -oprojekat
+./projekat
